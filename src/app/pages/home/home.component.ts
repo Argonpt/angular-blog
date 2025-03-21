@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BigCardComponent } from '../../components/big-card/big-card.component'; // Ajusta o caminho conforme necessário
 import { MenuTitleComponent } from '../../components/menu-title/menu-title.component';
@@ -12,4 +12,12 @@ import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent {}
+export class HomeComponent implements OnInit {
+
+
+constructor() { }
+ngOnInit(): void {
+    
+}
+
+}
